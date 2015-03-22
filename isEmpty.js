@@ -1,3 +1,6 @@
+function isEmpty_obj(o){for(var p in o){if(o.hasOwnProperty(p)){return false;}};return true;};
+
+
 
 function isEmpty(x){
 	var r=!x&&x!=0;
